@@ -197,7 +197,7 @@ struct PopoverView: View {
             WaterBar(value: water, goal: goal)
             HStack(spacing: 8) {
                 Text(water >= goal
-                     ? "Goal reached — \(model.today.glasses) glasses 🎉"
+                     ? "Goal reached — \(model.today.glasses) glasses"
                      : "\(model.today.glasses) of ~\(model.glassesGoal) glasses (\(model.glassMl) ml)")
                     .font(.system(size: 11)).foregroundStyle(.secondary)
                 Spacer()

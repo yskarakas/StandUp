@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yskarakas/StandUp/releases/latest"><b>⬇︎ Download the latest version</b></a>
+  <a href="https://github.com/yskarakas/StandUp/releases/latest"><b>Download the latest version</b></a>
   &nbsp;·&nbsp; macOS 13 or newer &nbsp;·&nbsp; Apple silicon &amp; Intel
 </p>
 
@@ -41,18 +41,18 @@ If you ignore the reminder, it chimes again gently every 5 minutes. If you lock 
 
 ## Features
 
-| | |
+| Feature | What it does |
 |---|---|
-| 🪑 **Menu bar timer** | Icon only, minutes (`12m`) or minutes:seconds (`12:34`). Click for the panel, **right-click for quick actions** (log a glass, I'm up, snooze, pause, analysis…). |
-| 🔔 **Stand-up reminder** | Chime + orange icon + the panel pops up on its own. Everything adjustable: sitting time (5–120 min), break length, snooze length, sounds on/off. |
-| 🚶 **Move breaks** | Countdown with a short movement tip. A break counts once you've moved for at least a minute. |
-| 💧 **Water tracker** | One-click **+ Glass** (glass size configurable, default 250 ml), undo, progress bar towards your daily goal and a celebration chime when you reach it. Every break reminds you to drink. |
-| 🧮 **Personal water goal** | Enter sex, age, weight, height, activity and climate — the app shows a transparent, step-by-step estimate based on published guidelines (see below). You can also set your own goal. |
-| 📊 **Analysis** | Today · Week · Month · 6 Months · Year · All time. Focus time, break time, breaks, snoozes, water in litres and glasses, daily averages, days the water goal was met, water streak, breaks per focus hour, and charts. |
-| 📄 **CSV export** | Export your full history to a spreadsheet. |
-| 🌙 **Light & dark mode** | Follows your system appearance. |
-| 🚀 **Launch at login** | One switch in Settings. |
-| 🪶 **Lightweight** | Native Swift (AppKit + SwiftUI), no dependencies, one 1-second timer, no background animations. ~0 % CPU and ~15 MB of memory while idle. |
+| **Menu bar timer** | Icon only, minutes (`12m`) or minutes:seconds (`12:34`). Click for the panel, **right-click for quick actions** (log a glass, I'm up, snooze, pause, analysis…). |
+| **Stand-up reminder** | Chime + orange icon + the panel pops up on its own. Everything adjustable: sitting time (5–120 min), break length, snooze length, sounds on/off. |
+| **Move breaks** | Countdown with a short movement tip. A break counts once you've moved for at least a minute. |
+| **Water tracker** | One-click **+ Glass** (glass size configurable, default 250 ml), undo, progress bar towards your daily goal and a celebration chime when you reach it. Every break reminds you to drink. |
+| **Personal water goal** | Enter sex, age, weight, height, activity and climate — the app shows a transparent, step-by-step estimate based on published guidelines (see below). You can also set your own goal. |
+| **Analysis** | Today · Week · Month · 6 Months · Year · All time. Focus time, break time, breaks, snoozes, water in litres and glasses, daily averages, days the water goal was met, water streak, breaks per focus hour, and charts. |
+| **CSV export** | Export your full history to a spreadsheet. |
+| **Light & dark mode** | Follows your system appearance. |
+| **Launch at login** | One switch in Settings. |
+| **Lightweight** | Native Swift (AppKit + SwiftUI), no dependencies, one 1-second timer, no background animations. ~0 % CPU and ~15 MB of memory while idle. |
 
 ## Analysis
 
