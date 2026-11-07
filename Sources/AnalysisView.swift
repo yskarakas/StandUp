@@ -156,7 +156,7 @@ struct AnalysisView: View {
             card("Glasses / day", Fmt.decimal(Double(s.glasses) / s.perDay), "drop.fill", waterTint)
 
             card("Water goal met", "\(s.goalMetDays) / \(max(s.goalDays, 0)) days", "target", waterTint)
-            card("Water streak", "\(streak()) days", "flame.fill", .orange, sub: "goal met in a row")
+            card("Water streak", streak() == 1 ? "1 day" : "\(streak()) days", "flame.fill", .orange, sub: "goal met in a row")
             card("Focus / day", Fmt.duration(s.work / s.perDay), "clock.fill", Phase.sitting.tint,
                  sub: "\(s.activeDays) active day\(s.activeDays == 1 ? "" : "s")")
             card("Breaks / focus hour", focusHours > 0.05 ? Fmt.decimal(Double(s.breaks) / focusHours) : "–",
